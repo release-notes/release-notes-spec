@@ -40,6 +40,13 @@ A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
 
 A release SHOULD provide a **description**.
 
+## Roadmap
+
+- [ ] Finish the `release-notes.yml` spec v1.
+- [ ] Provide a non-profit service to render release notes of open source projects.
+- [ ] Provide an easy to use badge icon to link to the release notes.
+- [ ] Browser Extension to display release notes for github/gitlab/bitbucket repos.
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
