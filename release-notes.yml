@@ -3,3 +3,6 @@ description: |
   Release-notes-spec is an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: Unreleased
+  added:
+  - Add MIT license.
