@@ -18,6 +18,11 @@ building compatible components in a distributed open source world.
 **BUT** it will not tell your dependents whether they have to urgently
 upgrade to the next compatible version, eg. in case of an security fix.
 
+## Related Projects
+
+- [keep a changelog](http://keepachangelog.com)
+- [vandamme - A Changelog parser](https://github.com/tech-angels/vandamme/)
+
 ---
 
 LICENSE
