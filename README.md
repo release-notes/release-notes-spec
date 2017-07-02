@@ -40,6 +40,14 @@ A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
 
 A release SHOULD provide a **description**.
 
+
+### The upcoming release
+
+An upcoming release MUST have the version set to `Unreleased`.
+
+The upcoming release MAY omit the **date** info.
+
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
