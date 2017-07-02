@@ -18,6 +18,28 @@ building compatible components in a distributed open source world.
 **BUT** it will not tell your dependents whether they have to urgently
 upgrade to the next compatible version, eg. in case of an security fix.
 
+
+## The Specification
+
+The release notes MUST be defined in a `release-notes.yml` file,
+on project root.
+
+The format of that file MUST be [YAML](http://www.yaml.org/spec/1.2/spec.html).
+
+The document MUST provide a **title**.
+
+The document SHOULD provide a **description**.
+
+The document MUST prodive **releases**, an array of `ReleaseDetails`.
+
+The releases SHOULD be ordered, the latest release comes first.
+
+A release MUST provide a **version**.
+
+A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
+
+A release SHOULD provide a **description**.
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
