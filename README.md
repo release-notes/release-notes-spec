@@ -40,6 +40,22 @@ A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
 
 A release SHOULD provide a **description**.
 
+### Modification Types
+
+A release MAY provide a list of **added** functionality.
+
+A release MAY provide a list of **removed** functionailty.
+
+A release MAY provide a list of **changed** functionailty.
+
+A release MAY provide a list of **improved** functionality.
+
+A release MAY provide a list of **deprecated** functionality.
+
+A release MAY provide a list of **fixed** functionality.
+
+A release MAY provide a list of **secured** fixes.
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
