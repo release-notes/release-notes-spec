@@ -54,7 +54,7 @@ A release MAY provide a list of **deprecated** functionality.
 
 A release MAY provide a list of **fixed** functionality.
 
-A release MAY provide a list of **security** fixes.
+A release MAY provide a list of **secured** fixes.
 
 ## Related Projects
 
