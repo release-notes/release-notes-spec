@@ -1,5 +1,14 @@
 # Release Notes Schema Specification
 
+
+**Title**   | Release Notes Specification
+:-----------|:---------------------------
+**Version** | 0.1.0
+**Date**    | 2017-07-07
+**Status**  | Draft
+**Author**  | [Alrik Zachert](https://github.com/alrik)
+**License** | MIT
+
 ## About
 
 The goal of this repository is to work out an **easy to use**,
