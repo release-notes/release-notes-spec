@@ -3,7 +3,7 @@
 
 **Title**   | Release Notes Specification
 :-----------|:---------------------------
-**Version** | 0.1.0
+**Version** | 0.2.0
 **Date**    | 2017-07-07
 **Status**  | Draft
 **Author**  | [Alrik Zachert](https://github.com/alrik)
@@ -47,6 +47,8 @@ A release MUST provide a **version**.
 
 A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
 
+A release MAY provide a **title**.
+
 A release SHOULD provide a **description**.
 
 ### The Upcoming Release
@@ -71,6 +73,9 @@ A release MAY provide a list of **deprecated** functionality.
 A release MAY provide a list of **fixed** functionality.
 
 A release MAY provide a list of **secured** fixes.
+
+All modification list items MUST be either string or an object with a
+**title** property.
 
 ## Related Projects
 
