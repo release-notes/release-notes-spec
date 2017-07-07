@@ -3,6 +3,9 @@ description: >
   Release-notes-spec is an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: Upcoming
+  added:
+  - Add support for an optional release title.
 - version: 0.1.0
   date: 2017-07-07T11:35:00Z
   description: The first released draft of the release notes specification.
