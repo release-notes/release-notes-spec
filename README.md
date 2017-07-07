@@ -42,7 +42,8 @@ A release SHOULD provide a **description**.
 
 ### The Upcoming Release
 
-An upcoming release MUST have the version set to `Unreleased`.
+An upcoming release MUST have the version set to `Unreleased`,
+`Next` or `Upcoming`.
 
 The upcoming release MAY omit the **date** info.
 
