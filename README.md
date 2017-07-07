@@ -47,6 +47,8 @@ A release MUST provide a **version**.
 
 A release MUST provide a **date** of type `ISODate` or `ISODateTime`.
 
+A release MAY provide a **title**.
+
 A release SHOULD provide a **description**.
 
 ### The Upcoming Release
