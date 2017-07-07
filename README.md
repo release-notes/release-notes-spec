@@ -3,7 +3,7 @@
 
 **Title**   | Release Notes Specification
 :-----------|:---------------------------
-**Version** | 0.1.0
+**Version** | 0.2.0
 **Date**    | 2017-07-07
 **Status**  | Draft
 **Author**  | [Alrik Zachert](https://github.com/alrik)
