@@ -1,0 +1,13 @@
+title: Release Notes of release-notes-spec
+description: >
+  Release-notes-spec is an easy to use, human readable and machine processable schema for release notes.
+
+releases:
+- version: 0.1.0
+  date: 2017-07-07T11:35:00Z
+  description: The first released draft of the release notes specification.
+  added:
+  - Specify base constraints of `release-notes.yml` file.
+  - Define 7 modification types (added, removed, changed, improved, deprecated, fixed, secured).
+  - Add MIT license.
+  - Introduce these release notes.
