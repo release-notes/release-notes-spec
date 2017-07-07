@@ -74,6 +74,9 @@ A release MAY provide a list of **fixed** functionality.
 
 A release MAY provide a list of **secured** fixes.
 
+All modification list items MUST be either string or an object with a
+**title** property.
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
