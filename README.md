@@ -77,6 +77,11 @@ A release MAY provide a list of **secured** fixes.
 All modification list items MUST be either string or an object with a
 **title** property.
 
+### Tags
+
+A modification in object notation MAY provide a list of **tags**.
+Each tag MUST be a string that SHOULD be treated case insensitive.
+
 ## Related Projects
 
 - [keep a changelog](http://keepachangelog.com)
