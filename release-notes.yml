@@ -3,6 +3,10 @@ description: >
   Release-notes-spec is an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: Next
+  added:
+  - title: Introduce tags, an optional list of case insensitive strings, as an extension to modifications.
+    tags: ["Taxonomy"]
 - version: 0.2.0
   date: 2017-07-07T11:51:00Z
   added:
