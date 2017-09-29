@@ -1,5 +1,6 @@
 # Release Notes Schema Specification
 
+[![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/release-notes-spec)
 
 **Title**   | Release Notes Specification
 :-----------|:---------------------------
