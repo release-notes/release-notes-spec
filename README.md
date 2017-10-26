@@ -4,8 +4,8 @@
 
 **Title**   | Release Notes Specification
 :-----------|:---------------------------
-**Version** | 0.2.0
-**Date**    | 2017-07-07
+**Version** | 0.3.0
+**Date**    | 2017-10-26
 **Status**  | Draft
 **Author**  | [Alrik Zachert](https://github.com/alrik)
 **License** | MIT
