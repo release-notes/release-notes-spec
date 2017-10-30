@@ -88,6 +88,16 @@ releases:
   - Introduce some awesomeness.
 ```
 
+## Project Repositories
+
+The Release Notes project consists of the following repositories:
+   
+- [Release Notes Hub](https://github.com/release-notes/release-notes-hub)
+- [Release Notes CLI Tool](https://github.com/release-notes/release-notes-cli)
+- [Release Notes Node.js lib](https://github.com/release-notes/release-notes-node)
+- [Release Notes Specification](https://github.com/release-notes/release-notes-spec)
+- [Release Notes JSON-Schema Definitions](https://github.com/release-notes/release-notes-schema)
+
 ---
 
 ### LICENSE
