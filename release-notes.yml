@@ -3,13 +3,18 @@ description: >
   Release-notes-spec is an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: 0.3.0
+  date: 2017-10-30
+  added:
+  - title: Introduce tags, an optional list of case insensitive strings, as an extension to modifications.
+    tags: ["Taxonomy"]
 - version: 0.2.0
-  date: 2017-07-07T11:51:00Z
+  date: 2017-07-07
   added:
   - Add support for an optional release title.
   - Add support for defining modifications as string or object with title attribute.
 - version: 0.1.0
-  date: 2017-07-07T11:35:00Z
+  date: 2017-07-07
   description: The first released draft of the release notes specification.
   added:
   - Specify base constraints of `release-notes.yml` file.
