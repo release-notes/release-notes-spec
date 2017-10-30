@@ -2,37 +2,16 @@
 
 [![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/release-notes-spec)
 
-**Title**   | Release Notes Specification
-:-----------|:---------------------------
-**Version** | 0.2.0
-**Date**    | 2017-07-07
-**Status**  | Draft
-**Author**  | [Alrik Zachert](https://github.com/alrik)
-**License** | MIT
-
 ## About
 
 The goal of this repository is to work out an **easy to use**,
-**human readable** and **machine processable** schema for release notes.
-
-Currently most of the open source projects out there do not provide
-details of what was added or what has changed when they release a new
-version.
-
-## Why should I care about release notes?
-
-Because this is an easy way for other people to keep track on what has
-changed in your software.
-[Semantic Versioning](http://semver.org) is a great commitment on
-building compatible components in a distributed open source world.
-**BUT** it will not tell your dependents whether they have to urgently
-upgrade to the next compatible version, eg. in case of an security fix.
-
+**human readable** and **machine processable** YAML schema specification for release notes.
 
 ## The Specification
 
-The release notes MUST be defined in a `release-notes.yml` file,
-on project root.
+The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
+
+The release notes MUST be defined in a `release-notes.yml` file on project root.
 
 The format of that file MUST be [YAML](http://www.yaml.org/spec/1.2/spec.html).
 
@@ -83,14 +62,45 @@ All modification list items MUST be either string or an object with a
 A modification in object notation MAY provide a list of **tags**.
 Each tag MUST be a string that SHOULD be treated case insensitive.
 
-## Related Projects
 
-- [keep a changelog](http://keepachangelog.com)
-- [vandamme - A Changelog parser](https://github.com/tech-angels/vandamme/)
+## Example
+
+```yaml
+title: Release Notes of an awesome project
+description: >
+  Awesome project makes your cli a better place.
+
+releases:
+- version: Unreleased
+  added:
+  - Add more fancy stuff.
+  deprecated:
+  - Deprecate some "not so awesome" command.
+- version: 0.1.1
+  date: 2017-10-30
+  fixed:
+  - title: Do not crash on win32.
+    tags: ["Windows"]
+- version: 0.1.0
+  date: 2017-10-30
+  description: The first release
+  added:
+  - Introduce some awesomeness.
+```
+
+## Project Repositories
+
+The Release Notes project consists of the following repositories:
+   
+- [Release Notes Hub](https://github.com/release-notes/release-notes-hub)
+- [Release Notes CLI Tool](https://github.com/release-notes/release-notes-cli)
+- [Release Notes Node.js lib](https://github.com/release-notes/release-notes-node)
+- [Release Notes Specification](https://github.com/release-notes/release-notes-spec)
+- [Release Notes JSON-Schema Definitions](https://github.com/release-notes/release-notes-schema)
 
 ---
 
-LICENSE
+### LICENSE
 
 The files in this archive are released under MIT license.
 You can find a copy of this license in [LICENSE](LICENSE).
